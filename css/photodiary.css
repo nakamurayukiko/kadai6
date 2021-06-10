@@ -1,0 +1,139 @@
+
+
+.diary1 {
+  padding-bottom: 58px;
+}
+
+.diary2 {
+  padding-bottom: 39px;
+}
+
+.discription {
+  font-style: italic;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-bottom: 32px;
+}
+
+.sns-wrapper {
+  width: 898px;
+  margin: 0 auto;
+  padding-top: 63px;
+ 
+  
+
+}
+
+.share {
+  font-family: "Ubuntu";
+  font-size: 13px;
+  font-weight: 100;
+  color: #b4ad9e;
+}
+
+.sns-wrapper ul {
+  padding-left: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sns-wrapper ul li a:hover{
+  opacity: 0.7;
+}
+
+.ggmap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  }
+   
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.map {
+  padding-top: 250px;
+  padding-bottom: 278px;
+}
+
+@media  screen and (max-width:768px) {
+  .photodiary img {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .diary5 {
+    padding-bottom: 0px;
+  }
+  .diary1 {
+    padding-bottom: 0px;
+  }
+  
+  .diary2 {
+    padding-bottom: 0px;
+  }
+  
+  .discription {
+    font-style: italic;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 18px;
+  }
+  
+  .sns-wrapper {
+    width: 100%;
+    margin: 0;
+    padding-top: 16px;
+  }
+  
+  .sns-wrapper ul {
+    padding-left: 0;
+
+    justify-content: center;
+  }
+  
+  .sns-wrapper ul li {
+    padding-right: 20px;
+  }
+  
+  
+  .ggmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+     
+  .ggmap iframe,
+  .ggmap object,
+  .ggmap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+  
+  .map {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+}
+
+
+
+
+
+
+

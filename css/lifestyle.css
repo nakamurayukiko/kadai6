@@ -1,0 +1,236 @@
+.diary2 {
+  margin-bottom: 19px;
+}
+
+.diary5 {
+  padding-bottom: 39px;
+}
+
+.you-may-also-like {
+  margin-top: 76px;
+  padding-top: 68px;
+  padding-bottom: 88px;
+  background-color: #f7f7f7;
+}
+
+.you-may-also-like-wrapper {
+  width: 899px;
+  margin: 0 auto;
+}
+
+.photo-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-wrapper a:hover {
+  opacity: 0.7;
+}
+.photo img {
+  width: 273px;
+  padding-top: 37px;
+  padding-bottom: 21px;
+}
+
+.photo p {
+  font-size: 24px;
+}
+
+.comment {
+  width: 899px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 103px;
+  
+
+}
+
+.comment-wrapper {
+  padding-top: 37px;
+  padding-bottom: 34px;
+}
+
+.jd {
+  display: flex;
+  justify-content: space-between;
+  
+ 
+}
+
+.join-discussion textarea {
+  height: 68px;
+  width: 789px;
+
+}
+
+.personal {
+  width: 789px;
+  font-family: "Playfair Display";
+  color: #626262;
+  font-size: 14px;
+}
+
+.jd img {
+  height: 70px;
+}
+
+.name{
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.replay {
+  padding-top: 21px;
+  color: #b4ad9e;
+}
+
+.jane-doe {
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
+textarea {
+  font-family: "ubuntu";
+  font-size: 14px;
+  color: #b4ad9e;
+  font-weight: 100;
+  border:1px solid #b4ad9e;
+  padding-top: 26px;
+  padding-left: 35px;
+
+}
+
+.conected-with {
+  display: flex;
+  padding-left: 689px;
+  align-items: center;
+}
+
+.conected-with p {
+  font-family: "ubuntu";
+  font-size: 14px;
+  color: #b4ad9e;
+  font-weight: 100;
+}
+
+.conected-with img {
+  height: 15px;
+}
+
+.conected-twitter {
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+@media screen and (max-width:768px) {
+  .diary2 {
+    margin-bottom: 19px;
+    
+  }
+  
+  .diary5 {
+    padding-bottom: 39px;
+    
+  }
+  
+  .you-may-also-like {
+    margin-top: 38px;
+    padding-top: 34px;
+    padding-bottom: 44px;
+    background-color: #f7f7f7;
+  }
+  
+  .you-may-also-like-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .photo-wrapper {
+    display: block;
+  }
+  
+  .photo img {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0px;
+   
+  }
+  
+  .photo p {
+    font-size: 18px;
+  }
+  
+  .comment {
+    width: 100%;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  
+  }
+  
+  .comment-wrapper {
+    padding-top: 18px;
+    padding-bottom: 17px;
+  }
+  
+  .join-discussion textarea {
+    width: 80%;
+    padding-left: 10px;
+  
+  }
+  
+  .personal {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  
+  .name{
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+  
+  .replay {
+    padding-top: 10px;
+    
+  }
+  
+  .jane-doe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  textarea {
+    
+    font-size: 12px;
+
+    padding-top: 26px;
+    padding-left: 35px;
+  
+  }
+  
+  .conected-with {
+    padding-left: 0;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  
+  .conected-with p {
+    font-size: 12px;
+  }
+  
+  .conected-with img {
+    height: 15px;
+  }
+  
+  .conected-twitter {
+    padding-left: 17px;
+    padding-right: 12px;
+  }
+
+  
+}

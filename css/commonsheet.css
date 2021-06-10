@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+.header-text {
+  width: 1065px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 67px;
+}
+ 
+.header-logo a h1{
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: #000000
+}
+
+.header-logo a h1:hover {
+  opacity: 0.7;
+}
+
+nav ul{
+  width: 573px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  color: #626262;
+}
+nav ul li a:hover {
+  border-bottom: 1px solid #626262;
+}
+
+.cover-img {
+  width: 1065px;
+  margin: 0 auto;
+}
+
+/* header-commonここまで */
+
+.photodiary {
+  width: 898px;
+  padding-top: 96px;
+  margin: 0 auto;
+  
+
+}
+
+
+h2 {
+  font-family: "ubuntu";
+  font-size: 14px;
+  color: #b4ad9e;
+  font-weight: 100;
+  padding-bottom: 26px;
+}
+
+h3, p {
+  font-family: "Playfair Display";
+  color: #626262;
+  font-weight: 300;
+  
+}
+
+h3 {
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+p span {
+  font-weight: bold;
+  
+}
+
+.small-letter {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  font-weight: 100;
+  color: #b4ad9e;
+}
+
+
+
+
+/* footer-commonここから */
+footer {
+  line-height: 97px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-wrapper {
+  padding-left: 150px;
+}
+.left-wrapper ul {
+  width: 201px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li a, .link{
+  font-family: "Playfair Display";
+  color: #000000;
+  font-size: 14px;
+}
+
+.left-wrapper ul li a:hover{
+  border-bottom: 1px solid #000;
+}
+
+.right-wrapper {
+  padding-right: 71px;
+}
+
+.right-wrapper ul {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-wrapper ul li a:hover {
+  opacity: 0.7;
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header-text {
+    width: 100%;
+    margin: 0 ;
+    padding-top: 38px;
+    padding-bottom: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+   
+  .header-logo a h1{
+    font-size: 20px;
+  }
+  
+  .cover-img {
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .cover-img img {
+    width: 100%;
+  }
+
+  .menu .fas{
+    color: #626262;
+  }
+
+  .menu .fas:hover {
+    opacity: 0.7;
+  }
+  
+  /* header-commonここまで */
+  
+  .photodiary {
+    width: 100%;
+    padding-top: 48px;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  h2 {
+    font-size: 12px;
+    padding-bottom: 13px;
+  }
+ 
+  
+  h3 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 17px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+  
+  
+  .small-letter {
+ 
+    font-size: 12px;
+   
+  }
+  
+  
+  /* footer-commonここから */
+  footer {
+    line-height: 3;
+    display: block;
+    
+  }
+  
+  .left-wrapper {
+    padding-left: 0;
+   
+  }
+  .left-wrapper ul {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .left-wrapper ul li {
+    border-bottom: 1px solid #fff;
+  }
+  
+  footer ul li a, .link{
+    font-size: 12px;
+  }
+  
+  .left-wrapper ul li a:hover{
+    border-bottom: 1px solid #000;
+  }
+  
+  .right-wrapper {
+    padding-top: 80px;
+    padding-right: 10px;
+    background: #fff;
+  }
+  
+  .right-wrapper ul {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .right-wrapper ul li {
+    padding-right: 20px;
+  }
+ 
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+}
