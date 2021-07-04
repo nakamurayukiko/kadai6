@@ -206,5 +206,10 @@
     border: 1px solid #626262;
   }
   
+  body.noscroll{
+    overflow: hidden;
+  }
+
+  
   
 }
